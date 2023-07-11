@@ -42,7 +42,9 @@
         {
             web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1:8545"));
             //smart contract address
+            //Copy the first one from the list of accounts obtained after running Ganache-Cli
             var address = "";
+            // Copy from the __Bank_sol_bank.abi
             var abi = ;
 
             contract = new web3.eth.Contract(abi, address);
